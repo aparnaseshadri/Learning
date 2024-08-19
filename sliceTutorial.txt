@@ -1,4 +1,4 @@
-Sure! Printing a word backwards in Python is a simple task that can be done using slicing. Here's a step-by-step explanation:
+Printing a word backwards in Python is a simple task that can be done using slicing. Here's a step-by-step explanation:
 
 ### Slicing in Python
 In Python, slicing allows you to extract parts of a string (or other sequence types like lists) by specifying a start, stop, and step value. The general syntax is:
