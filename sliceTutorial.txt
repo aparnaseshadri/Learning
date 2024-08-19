@@ -1,0 +1,36 @@
+Sure! Printing a word backwards in Python is a simple task that can be done using slicing. Here's a step-by-step explanation:
+
+### Slicing in Python
+In Python, slicing allows you to extract parts of a string (or other sequence types like lists) by specifying a start, stop, and step value. The general syntax is:
+
+```python
+string[start:stop:step]
+```
+
+- **`start`**: The index to start the slice.
+- **`stop`**: The index to end the slice (not inclusive).
+- **`step`**: The step size, or how many indices to move forward. If the step is negative, it moves backward.
+
+### Printing a Word Backwards
+To print a word backwards, you can use slicing with a negative step value:
+
+### Example Code
+```python
+word = "Python"
+print(word[::-1])
+```
+
+### Explanation
+- `word[::-1]` tells Python to slice the string from the start to the end, but with a step of `-1`. This means it starts from the end of the string and moves backwards, effectively reversing the string.
+- In the example above, "Python" becomes "nohtyP".
+
+### Interactive Example
+Here's an interactive version where you can input a word:
+
+```python
+word = input("Enter a word: ")
+print("The word backwards is:", word[::-1])
+```
+
+### Summary
+This method of reversing a string using slicing is very concise and efficient, making it a common way to print a word backwards in Python.
