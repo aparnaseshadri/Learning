@@ -1,10 +1,10 @@
-def is_palidrome(s):
+def is_palindrome(s):
     """
-    Check if a given string is a palidrome
+    Check if a given string is a palindrome
     Args:
     s(str) is string to be checked
     Returns:
-    bool: True is s is a palidrome, false otherwise
+    bool: True is s is a palindrome, false otherwise
     """
     
     #Remove spaces and convert it to lower cases for comaprison
@@ -14,14 +14,14 @@ def is_palidrome(s):
     return s == s[::-1]
 
 def main():
-    print ("Palidrome Checker")
+    print ("Palindrome Checker")
     
     #Interactive input
-    user_input = input("Enter the String to check if it is a palidrome")
+    user_input = input("Enter the String to check if it is a palindrome")
     if is_palidrome(user_input):
-        print ("The given string is a palidrome")
+        print ("The given string is a palindrome")
     else:
-        print("The given string is not a palidrome")
+        print("The given string is not a palindrome")
 
 if __name__  == "__main__":
     main()
